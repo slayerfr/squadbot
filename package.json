@@ -1,0 +1,17 @@
+{
+  "name": "squadbot",
+  "version": "1.0.0",
+  "description": "A powerful discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fanouu and VERSACE",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0",
+    "fs": "0.0.1-security"
+  }
+}
