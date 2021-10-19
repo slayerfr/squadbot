@@ -1,0 +1,14 @@
+{
+    "error":{
+        "NoArgs": "│ Veillez spécifié un argument ou une message précis"
+    },
+    
+    "help": {
+        "title": "Page d'aide de SquadBot",
+        "moderator": "👮‍♂️༻ Moderateur",
+        "configurator": "🛠️༻ Configuration",
+        "giveaway": "🎁༻ Giveaways",
+        "economy": "💸༻ Economy",
+        "funny": "🎉༻ Fun"
+    }
+}

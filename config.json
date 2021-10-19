@@ -2,6 +2,21 @@
     "bot": {
         "DefaultPrefix": "-",
         "token": "ODgxOTEwMTEzNDE2NDA5MDk4.YSzszA.a67XTo6oL4DVo2D7y7CN_NpXQAc",
-        "DefaultLangage": "FR"
+        "DefaultLangage": "fr",
+        "footer": "SquadBot - 2021",
+        "version": "bêta-0.0.1"
+    },
+    "emojis": {
+        "animated": {
+            "error": "<a:error:900016565599236097>",
+            "succes": "<a:succes:900016534343258132>>"
+        },
+        "simple": {
+            "error": "❌",
+            "succes": "✔️"
+        }
+    },
+    "color": {
+        "purple": "soon"
     }
 }
