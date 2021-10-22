@@ -1,2 +1,2 @@
 # squad-bot
-soon 
+SQUAD BOT V1 soon 
