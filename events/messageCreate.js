@@ -83,25 +83,6 @@ module.exports = async (client, message) => {
        
 
 
-    const commandE = new Discord.MessageEmbed()
-    .setTitle(`${cfg.emojis.command} Command execution`)
-    .setColor("RANDOM")
-    .addField(`<:label:750780936320450631> Name`, `${commandfile.help.name}`, false)
-    .addField(`<:roleList:750781042041946122> Author`, `${message.author.tag}`, false)
-    .addField(`<:cityhall:756245380437508116> Guild`, `${message.guild.name}`, false)
-
-    const channelExec = client.channels.cache.get("899970892443033621")
-
-    const webhooks = await channelExec.fetchWebhooks();
-		const webhook = webhooks.first();
-
-		await webhook.send({
-			content: 'Command Executé',
-			username: 'SquadBot périphe',
-			avatarURL: 'https://i.imgur.com/AfFp7pu.png',
-			embeds: [commandE],
-		});
-
     commandfile.run(client, message, args, prefixes, lang, getLang, cfg); 
 
     console.log("CMD: " + message.content)
