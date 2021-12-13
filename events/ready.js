@@ -3,16 +3,6 @@ const Discord = require("discord.js")
 
 module.exports = client => {
 
-    channelID = "899639078864175108";
-    msgChannel = client.channels.cache.get(channelID);
-
-    const embed = new Discord.MessageEmbed()
-    .setTitle("SquadBot - statut")
-    .setDescription(`*=================* \n**${client.user.username} is ready** ! (||${client.user.id}||) \nAt **\`${client.guilds.cache.size}\` guilds** \n*=================*`)
-    .setFooter(cfg.bot.footer)
-    .setColor("RED")
-
-    msgChannel.send({embeds: [embed]}); 
 
     console.log(`================= \n${client.user.username} is ready ! (${client.user.id}) \nAt ${client.guilds.cache.size} guilds \n=================`)
 
