@@ -116,4 +116,4 @@ readdir('./events/', (err, files) => {
     }
   })*/
 
-client.login("ODk5NjQ4NTMwNTE4NTE1NzY1.YW10_A.szm_UfBCTn0AQuI2wGHixPn0wog")
+client.login("token")
